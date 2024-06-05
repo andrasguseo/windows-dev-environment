@@ -24,3 +24,5 @@ services:
   proxy:
     appserver:
       - dev.lndo.site
+  phpmyadmin:
+    type: phpmyadmin
