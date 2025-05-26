@@ -21,6 +21,6 @@ services:
     type: mailhog
     hogfrom:
       - appserver
-  proxy:
-    appserver:
-      - dev.lndo.site
+proxy:
+  appserver:
+    - dev.lndo.site
