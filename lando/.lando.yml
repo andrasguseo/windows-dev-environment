@@ -21,6 +21,8 @@ services:
     type: mailhog
     hogfrom:
       - appserver
+  phpmyadmin:
+    type: phpmyadmin
 proxy:
   appserver:
     - dev.lndo.site
